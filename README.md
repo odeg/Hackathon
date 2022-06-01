@@ -7,7 +7,7 @@ Reconocimiento de imagen con enfasis en control de accesos segmentados.
 Grupo: Kuimba'e Aty ft. Las Chi
 
 
-Integrantes: 
+INTEGRANTErantes: 
 
 -Joel Alcaraz
 
