@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head> 
+  <body src="../public/img/foto30.jpeg" alt="" >
+    <nav style="position:fixed; width: 100%;" class="bg-zinc-700 px-2 sm:px-4 py-5 rounded-2xl">
+      <div class="container flex flex-wrap justify-between items-center mx-auto">
+      <a href="{{ url_for ('inicio') }}" class="flex items-center">
+        <img class="w-3/4" src="../public/img/hsslogo19.png" alt="" />
+      </a>
+      <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-white-500 rounded-lg md:hidden hover:bg-white-100 focus:outline-none focus:ring-2 focus:ring-white-200 dark:text-white-400 dark:hover:bg-white-700 dark:focus:ring-white-600" aria-controls="mobile-menu" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+      <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+      <li>
+      <a href="{{ url_for ('inicio') }}" class="font-bold text-xl block py-2 pr-4 pl-3 text-orange bg-orange-400 rounded md:bg-transparent md:text-orange-400 md:p-0 dark:text-orange" aria-current="page">Inicio</a>
+      </li>
+      <li>
+      <a href="{{ url_for ('registratena') }}" class="font-bold text-xl block py-2 pr-4 pl-3 text-white border-b border-white-100 hover:bg-white-50 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-white-400 md:dark:hover:text-orange dark:hover:bg-white-700 dark:hover:text-orange md:dark:hover:bg-transparent dark:border-white-700">Register</a>
+      </li>
+      <li>
+      <a href="{{ url_for ('ingresana') }}" class="font-bold text-xl block py-2 pr-4 pl-3 text-white border-b border-white-100 hover:bg-white-50 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-white-400 md:dark:hover:text-orange dark:hover:bg-white-700 dark:hover:text-orange md:dark:hover:bg-transparent dark:border-white-700">Inicia Seción</a>
+      </li>
+      <li>
+      <a href="{{ url_for ('informatena') }}" class="font-bold text-xl block py-2 pr-4 pl-3 text-white border-b border-white-100 hover:bg-white-50 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-white-400 md:dark:hover:text-orange dark:hover:bg-white-700 dark:hover:text-orange md:dark:hover:bg-transparent dark:border-white-700">Mas Informacion</a>
+      </li>
+      <li>
+      <a href="{{ url_for ('contactana') }}" class="font-bold text-xl block py-2 pr-4 pl-3 text-white hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-white-400 md:dark:hover:text-orange dark:hover:bg-white-700 dark:hover:text-orange md:dark:hover:bg-transparent">Nosotros</a>
+      </li>
+      </ul>
+      </div>
+      </div>
+      </nav>
+    <div id="tab_bar"></div>
+    <section class="w-full h-screen">
+      <div id="home">
+        <div class="w-full h-full">
+          <div
+            class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center"
+          >
+            
+            
+          </div>
+          <div class="flex justify-end py-20">
+            <img class=" py-10" src="../public/img/hssletras18.png" alt="">
+          </div>
+          <div class="flex justify-end -mt-16">
+            <img src="../public/img/fotocomputador17.png" alt="" />
+          </div>
+          <div
+            class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center"
+          ></div>
+        </div>
+      </div>
+
+      <div id="recommendations">
+        <p class="text-3xl font-semibold text-red-600 py-4">
+          Nuestras Recomendaciones
+        </p>
+      </div>
+
+      <div
+        class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6"
+      >
+        <div class="Card bg-lime-600">
+          <div class="bg-noruega w-52 h-32 bg-cover rounded-md"></div>
+          <div class="text-white text-xl px-4 py-2">Noruega</div>
+          <p class="text-white text-md px-2 py-1">
+            Presenta unos paisajes hermosos.
+          </p>
+        </div>
+        <div class="Card bg-white-600">
+          <div class="bg-nueva_zelanda w-52 h-32 bg-cover rounded-md"></div>
+          <div class="text-cyan-600 text-xl px-4 py-2">Nueva Zelanda</div>
+          <p class="text-cyan-600 text-md px-2 py-1">
+            Presenta unos paisajes hermosos.
+          </p>
+        </div>
+        <div class="Card bg-lime-600">
+          <div class="bg-oslo w-52 h-32 bg-cover rounded-md"></div>
+          <div class="text-white text-xl px-4 py-2">Oslo</div>
+          <p class="text-white text-md px-2 py-1">
+            Presenta unos paisajes hermosos.
+          </p>
+        </div>
+        <div class="Card bg-white-600">
+          <div class="bg-new_york w-52 h-32 bg-cover rounded-md"></div>
+          <div class="text-cyan-600 text-xl px-4 py-2">New York</div>
+          <p class="text-cyan-600 text-md px-2 py-1">La gran manzana.</p>
+        </div>
+        <div class="Card bg-lime-600">
+          <div class="bg-canada w-52 h-32 bg-cover rounded-md"></div>
+          <div class="text-white text-xl px-4 py-2">Canada</div>
+          <p class="text-white text-md px-2 py-1">
+            Presenta unos paisajes hermosos y uno de sus lagos mas hermosos.
+          </p>
+        </div>
+        <div class="Card bg-white-600">
+          <div class="bg-rusia w-52 h-32 bg-cover rounded-md"></div>
+          <div class="text-cyan-600 text-xl px-4 py-2">Rusia</div>
+          <p class="text-cyan-600 text-md px-2 py-1">
+            Hermosas playas con costa al mar.
+          </p>
+        </div>
+        <div class="Card bg-lime-600">
+          <div class="bg-Alemania w-52 h-32 bg-cover rounded-md"></div>
+          <div class="text-white text-xl px-4 py-2">Alemania</div>
+          <p class="text-white text-md px-2 py-1">
+            Hermosas vistas montañosas y grandes atractivos turisticos.
+          </p>
+        </div>
+      </div>
+
+      <div id="rentas_destacadas"></div>
+    </section>
+  </body>
+</html>
