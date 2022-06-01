@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Card {
+  @apply ml-6 w-52 h-64 rounded-md;
+}
