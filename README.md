@@ -9,22 +9,22 @@ Grupo: Kuimba'e Aty ft. Las Chi
 
 Integrantes: 
 
-Joel Alcaraz
+-Joel Alcaraz
 
 
-Oscar Estigarribia
+-Oscar Estigarribia
 
 
-Fabri Mencia 
+-Fabri Mencia 
 
 
-Dani Acuña
+-Dani Acuña
 
 
-Diego Mendoza 
+-Diego Mendoza 
 
 
-Oliver Ojeda
+-Oliver Ojeda
 
 
 Coaches: Alex y Claudia
