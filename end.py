@@ -16,7 +16,7 @@ API_KEY = "o.t9HTbcNGkW67EzEh8q1Xr5349q0lFyJa"
 # pb = Pushbullet(API_KEY)
 # push =pb.push_note("Sujeto no identificado detectado en zona prohibida","alo")
 # import argparse
-
+# Update 2024
 def getFaceBox(net, frame, conf_threshold=0.7):
     frameOpencvDnn = frame.copy()
     frameHeight = frameOpencvDnn.shape[0]
